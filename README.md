@@ -1,10 +1,10 @@
 ![](https://i.imgur.com/xG74tOh.png)
 
-# Flex box
+# Flexbox
 
 ## Objetivo
 
-Construir os layouts presentes no arquivo _layouts.penpot_ usando o flex box
+Construir os layouts presentes no arquivo _layouts.penpot_ usando o flexbox e layout flow
 
 ## Contexto
 
