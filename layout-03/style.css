@@ -1,0 +1,238 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  height: 100vh;
+  background-image: url("assets/image-header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  padding: 34px 48px 0 40px;
+  align-items: center;
+}
+
+header nav {
+  height: 56px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.logo {
+  height: 33px;
+}
+
+.container-nav-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 47px;
+}
+
+.container-nav-header ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 47px;
+  color: white;
+  font-size: 18px;
+}
+
+.container-nav-header button {
+  height: 56px;
+  width: 140px;
+  color: #24303e;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 28px;
+}
+
+header h1 {
+  font-size: 56px;
+  color: white;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+header img {
+  height: 60px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.artigos {
+  display: flex;
+  flex-direction: column;
+}
+
+.artigo {
+  display: flex;
+  height: 600px;
+}
+
+.texto-artigo {
+  width: 50%;
+  padding: 158px 110px 158px 165px;
+}
+
+.texto-artigo h2 {
+  color: #24303e;
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: 82px;
+}
+
+.texto-artigo p {
+  color: #808397;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.texto-artigo a {
+  text-transform: uppercase;
+  color: #24303e;
+  font-size: 15px;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.imagem-artigo {
+  width: 50%;
+}
+
+.servicos {
+  height: 600px;
+  display: flex;
+}
+
+.container-servico {
+  width: 50%;
+  padding: 398px 190px 59px;
+  text-align: center;
+}
+
+.container-servico h2 {
+  color: #24554a;
+  font-size: 28px;
+  font-weight: 900;
+  margin-bottom: 28px;
+}
+
+.container-servico p {
+  font-size: 16px;
+}
+
+.servico-1 {
+  background-position: center;
+  background-image: url("assets/image-graphic-design.jpg");
+}
+
+.servico-2 {
+  background-position: center;
+  background-image: url("assets/image-photography.jpg");
+}
+
+.clientes {
+  background-color: #f2f2f2;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.clientes h2 {
+  margin-bottom: 100px;
+  text-transform: uppercase;
+  color: #a7aaad;
+  font-size: px;
+}
+
+.testemunhos {
+  display: flex;
+  padding: 0 100px;
+}
+
+.testemunho {
+  text-align: center;
+}
+
+.testemunho img {
+  width: 72px;
+  border-radius: 50%;
+  margin-bottom: 50px;
+}
+
+.descricao-perfil {
+  font-size: 18px;
+  color: #5b636d;
+  margin: 50px;
+}
+
+.nome {
+  font-size: 18px;
+  color: #24303e;
+  margin: 20px;
+  font-weight: 900;
+}
+
+.profissao {
+  font-size: 14px;
+  color: #a7aaad;
+}
+
+.fotos {
+  height: 797px;
+  display: flex;
+}
+
+.fotos img {
+  width: 25%;
+}
+
+footer {
+  height: 350px;
+  background-color: #90d4c6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #458d7e;
+  font-size: 18px;
+}
+
+.logo-empresa {
+  height: 33px;
+  margin-bottom: 40px;
+}
+
+.navegacao-footer ul {
+  list-style: none;
+  display: flex;
+  gap: 57px;
+  margin-bottom: 88px;
+}
+
+.navegacao-footer li {
+  cursor: pointer;
+}
+
+.redes-sociais {
+  display: flex;
+  gap: 48px;
+}
+
+.redes-sociais img:hover {
+  cursor: pointer;
+}
